@@ -15,7 +15,7 @@ pipeline {
                     def tfHome = tool name: 'Terraform'
                     env.PATH = "${tfHome}:${env.PATH}"
                 }
-                sh 'echo $SVC_ACCOUNT_KEY | base64 -w0 > ./gcp-learners-123-d5c5edda7161.json'
+                sh 'echo $SVC_ACCOUNT_KEY | base64 -w0 > ./JENKINS-AUTH'
                 sh 'terraform --version'               
                
             }
