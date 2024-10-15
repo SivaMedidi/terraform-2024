@@ -1,7 +1,7 @@
 provider "google" {
   project     = "gcp-learners-123"
   region      = "us-central1"
-  credentials = file("terraform.json")
+  credentials = file("JENKINS-AUTH")
 
 }
 
