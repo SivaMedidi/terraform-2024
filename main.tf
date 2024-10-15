@@ -1,7 +1,7 @@
 provider "google" {
   project     = "mi-cloud-dev"
   region      = "us-central1"
-  credentials = file("terraform.json")
+  credentials = file("gcp-learners-123-8bffbef15e1e.json")
 
 }
 
