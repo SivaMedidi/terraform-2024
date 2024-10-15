@@ -8,7 +8,7 @@ provider "google" {
 resource "google_compute_instance" "default" {
   name         = "my-vm"
   machine_type = "e2-medium"
-  zone         = "us-central1-f"
+  zone         = "us-central1-c"
   tags = ["hr", "dev"]
 
 
