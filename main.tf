@@ -1,7 +1,7 @@
 provider "google" {
   project     = "gcp-learners-123"
   region      = "us-central1"
-  credentials = file("JENKINS-AUTH")
+  credentials = file("gcp-learners-123-8bffbef15e1e.json")
 
 }
 
