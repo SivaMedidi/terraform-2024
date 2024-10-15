@@ -3,7 +3,7 @@ pipeline {
 
 
     environment {
-    SVC_ACCOUNT_KEY = credentials('GCP-SECRET')
+    SVC_ACCOUNT_KEY = credentials('JENKINS-AUTH')
   }
      
     stages {
